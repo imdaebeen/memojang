@@ -1,10 +1,6 @@
 테이블 설계
 
-
-
-
-
-고객 / 포인트 / 메뉴 / 주문 / 결제
+고객 / 포인트 / 메뉴 / 주문
 
 int 디스크 용량 절약
 43억개 이상 이면 bigint
@@ -33,7 +29,7 @@ point_details 포인트내역
 point_details_id bigint(20) PK
 point_id bigint(20) FK
 costomer_id varchar(50) FK
-price bigint(20)
+point_charge_amt bigint(20)
 RGST_ID
 RGST_DT
 UPDT_ID
@@ -57,12 +53,6 @@ order_detail_id bigint(20) PK
 order_id bigint(20) FK
 menu_id varchar(20) FK
 
-payment 결제
-payment_id bigint(20) PK
-payment_price bigint(20) NOT NULL
-payment_status char(3) NOT NULL
-RGST_ID
-RGST_DT
 
 
 
