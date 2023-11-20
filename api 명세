@@ -24,8 +24,5 @@ req 고객아이디
 res 코드
     200
 
-x-swagger-router-controller:Menu
-'api/menu/popular'
-x-swagger-router-controller: Order
-x-swagger-router-controller: Point
+
 

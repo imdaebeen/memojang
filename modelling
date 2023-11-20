@@ -1,57 +1,36 @@
 테이블 설계
 
-고객 / 포인트 / 메뉴 / 주문
+고객 / 포인트트랜잭션 / 메뉴 / 주문
 
 int 디스크 용량 절약
 43억개 이상 이면 bigint
 나중에 데이터타입을 바꾸기 힘듬
 
 customers 고객
-customer_id varchar(50) PK
-password nvarchar(100) not null
+customer_seq bigint(20) PK
+customer_id varchar(50) not null
+customer_point bigint(20) not null
 phone_number varchar(15)not null
 nick_name  nvarchar(100) not null
-RGST_ID
-RGST_DT
-UPDT_ID
-UPDT_DT
 
-point 포인트
+point 포인트 트랜잭션
 point_id bigint(20) PK
-costomer_id varchar(50) FK
+costomer_seq varchar(50) FK
 total_price bigint(20)
-RGST_ID
-RGST_DT
-UPDT_ID
-UPDT_DT
-
-point_details 포인트내역
-point_details_id bigint(20) PK
-point_id bigint(20) FK
-costomer_id varchar(50) FK
-point_charge_amt bigint(20)
-RGST_ID
-RGST_DT
-UPDT_ID
-UPDT_DT
 
 menu 메뉴
-menu_id varchar(20) PK
+menu_id bigint(20) PK
 menu_name nvarchar(50) NOT NULL
 menu_price bigint(20)
 
 order 주문
 order_id bigint(20) PK
-costomer_id varchar(50) FK
-order_totoal_price bigint(20) NOT NULL
+customer_id varchar(50) FK
+menu_id bigint(20)
+menu_name
+order_price
 order_status char(3) NOT NULL
-RGST_ID
-RGST_DT
-
-order_detail 주문상세
-order_detail_id bigint(20) PK
-order_id bigint(20) FK
-menu_id varchar(20) FK
+ordered_at datetime NOT NULL 주문일시
 
 
 
