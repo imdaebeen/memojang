@@ -15,7 +15,7 @@ nick_name  nvarchar(100) not null
 point 포인트 트랜잭션
 point_id bigint(20) PK
 costomer_seq varchar(50) FK
-total_price bigint(20)
+point_amt bigint(20)
 
 menu 메뉴
 menu_id bigint(20) PK
