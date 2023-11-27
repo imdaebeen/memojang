@@ -1,0 +1,55 @@
+https://roadmap.sh/
+
+
+코딩
+ - 자바 언어 - 코딩테스트, 객체지향, 자바 인 액션,
+ - 스프링 - 김영한 , 토비 스프링
+ - 테스트
+
+API AUthentication / OAuth / Basic AUth / Token Auth / JWT /
+ - REST
+ - JSON APIs
+ - SOAP
+ - gRPC
+ - GraphQL
+
+캐싱
+ - Client Side
+ - Server Side - Redis
+ - CDN
+
+웹보안
+ - httpS / cORS / SSL
+
+CI/CD
+
+SW 디자인 / 아키텍처
+ - GOF 디자인패턴
+ - DDD(도메인 주도 개발)
+ - TDD(테스트 주도 개발) - 통합테스트 / 유닛테스트 / 함수테스트
+ - CQRS
+ - Event Sourcing
+
+아키텍처 패턴
+ - 모놀로틱 앱스 방법론
+ - 마이크로서비스 방법론
+ - SOA 방법론
+ - 서버리스 방법론
+ - 서비스 매쉬 방법론
+ -  Twelve-Factor app 방법론
+
+
+엘라스틱 서치
+ - 레빗MQ    메시지 분산 데이터 처리 시스템
+
+GrahQL
+ - Apollo
+
+컨테이너 / 가상화
+ - 도커
+ - 쿠버네티스
+
+웹서비스
+ - Nginx
+
+스케일 빌딩
