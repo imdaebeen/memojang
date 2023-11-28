@@ -1,0 +1,28 @@
+menu 조회
+req 없음
+res 코드 200
+    메뉴 리스트
+    List<Menu>
+
+인기메뉴 조회
+req 없음
+res 코드 200
+    메뉴 리스트
+    List<Menu>
+
+주문
+req 고객아이디
+    List<Menu> 메뉴객체
+    주문금액
+res 코드
+    200
+
+충전하기
+req 고객아이디
+    포인트 충전 금액
+
+res 코드
+    200
+
+
+
